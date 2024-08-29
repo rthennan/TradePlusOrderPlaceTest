@@ -1,0 +1,48 @@
+
+2024-08-29 19:50:46.946813    Starting Main Trader
+2024-08-29 19:50:47.105497    RocketPlus API login Success
+2024-08-29 19:50:47.105697    Generating Symbol to ExchangeID dictionary
+2024-08-29 19:50:48.909063    Done generating dictionary
+2024-08-29 19:50:48.909227    Starting Order Placement
+2024-08-29 19:50:48.909343    
+
+
+starting Transaction # 1. Attempting to place 1 concurrent orders 
+2024-08-29 19:50:48.909902    mktBuy_RP => Placing Buy Market Order tradingSymbol: NIFTY24OCT25000CE orderQty: 25 orderSeqNum: 1. uniqueID: t1Bseq1
+2024-08-29 19:50:48.936157    mktBuy_RP : order 1110915104 placed successfully for orderSeqNum : 1 tradeNum: 1 uniqueID: t1Bseq1
+2024-08-29 19:50:48.936976    Transaction #1 Completed.
+
+
+
+2024-08-29 19:50:48.937235    sleeping for 5 seconds
+2024-08-29 19:50:53.942672    
+
+
+starting Transaction # 2. Attempting to place 2 concurrent orders 
+2024-08-29 19:50:53.943526    mktBuy_RP => Placing Buy Market Order tradingSymbol: NIFTY24OCT25000CE orderQty: 25 orderSeqNum: 1. uniqueID: t2Bseq1
+2024-08-29 19:50:53.943796    mktBuy_RP => Placing Buy Market Order tradingSymbol: NIFTY24OCT25000CE orderQty: 25 orderSeqNum: 2. uniqueID: t2Bseq2
+2024-08-29 19:50:53.970321    mktBuy_RP : order 1110915105 placed successfully for orderSeqNum : 1 tradeNum: 2 uniqueID: t2Bseq1
+2024-08-29 19:50:53.975744    mktBuy_RP : order 1110915106 placed successfully for orderSeqNum : 2 tradeNum: 2 uniqueID: t2Bseq2
+2024-08-29 19:50:53.976080    Transaction #2 Completed.
+
+
+
+2024-08-29 19:50:53.976265    sleeping for 5 seconds
+2024-08-29 19:50:58.981538    
+
+
+starting Transaction # 3. Attempting to place 3 concurrent orders 
+2024-08-29 19:50:58.982078    mktBuy_RP => Placing Buy Market Order tradingSymbol: NIFTY24OCT25000CE orderQty: 25 orderSeqNum: 1. uniqueID: t3Bseq1
+2024-08-29 19:50:58.982355    mktBuy_RP => Placing Buy Market Order tradingSymbol: NIFTY24OCT25000CE orderQty: 25 orderSeqNum: 2. uniqueID: t3Bseq2
+2024-08-29 19:50:58.985230    mktBuy_RP => Placing Buy Market Order tradingSymbol: NIFTY24OCT25000CE orderQty: 25 orderSeqNum: 3. uniqueID: t3Bseq3
+2024-08-29 19:50:59.014831    mktBuy_RP : order 1110915107 placed successfully for orderSeqNum : 1 tradeNum: 3 uniqueID: t3Bseq1
+2024-08-29 19:50:59.021951    mktBuy_RP => Rate limit hit.: orderSeqNum: 3 tradeNum: 3 uniqueID: t3Bseq3.
+                    orderPlace Response : {'err': True, 'data': {'type': 'error', 'code': 'e-apirl-0004', 'description': 'RTHENNAN_755982CC29D91BB03D2728 have reached max limit for POST /orders  to call this api.', 'result': None}}
+                
+2024-08-29 19:50:59.025221    mktBuy_RP : order 1110915108 placed successfully for orderSeqNum : 2 tradeNum: 3 uniqueID: t3Bseq2
+2024-08-29 19:50:59.027498    Transaction #3 Completed.
+
+
+
+2024-08-29 19:50:59.027687    sleeping for 5 seconds
+2024-08-29 19:51:04.032934    All actions completed
